@@ -23,6 +23,8 @@ jobs:
         bundler-cache: true
     - name: Install Jekyll
       run: gem install jekyll
+    - name: Check Jekyll path
+      run: which jekyll
     - name: Install deps
       run: |
         npm install -g mermaid.cli
