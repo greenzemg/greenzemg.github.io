@@ -8,28 +8,27 @@ middle_name: H.
 last_name: Gebremariam
 email: tekme2web@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+    A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
-
+    Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+    Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+    Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://greenzemg.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
 
 # code highlighter theme
-highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
-highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_light: github # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_dark: native # https://github.com/jwarby/jekyll-pygments-themes
 
 # repo color theme
 repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
@@ -109,7 +108,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+    You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -135,11 +134,11 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+    enabled: true
 
 related_blog_posts:
-  enabled: true
-  max_related: 5
+    enabled: true
+    max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
@@ -164,22 +163,22 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+    - name: medium.com
+      rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
+    news:
+        defaults:
+            layout: post
+        output: true
+        permalink: /news/:path/
+    projects:
+        output: true
+        permalink: /projects/:path/
 
 announcements:
   enabled: true
@@ -199,26 +198,26 @@ latest_posts:
 markdown: kramdown
 highlighter: rouge
 kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    css_class: 'highlight'
-    span:
-      line_numbers: false
-    block:
-      line_numbers: false
-      start_line: 1
+    input: GFM
+    syntax_highlighter_opts:
+        css_class: "highlight"
+        span:
+            line_numbers: false
+        block:
+            line_numbers: false
+            start_line: 1
 
 # Includes & excludes
-include: ['_pages']
+include: ["_pages"]
 exclude:
-  - bin
-  - Gemfile
-  - Gemfile.lock
-  - vendor
+    - bin
+    - Gemfile
+    - Gemfile.lock
+    - vendor
 keep_files:
-  - CNAME
-  - .nojekyll
-  - .git
+    - CNAME
+    - .nojekyll
+    - .git
 
 # Plug-ins
 plugins:
@@ -252,24 +251,24 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ['robots.txt']
-  uglifier_args:
-    harmony: true
+    exclude: ["robots.txt"]
+    uglifier_args:
+        harmony: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-  layouts:
-    year: archive-year
-    tag: archive-tag
-    category: archive-category
-  permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
+    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    layouts:
+        year: archive-year
+        tag: archive-tag
+        category: archive-category
+    permalinks:
+        year: "/blog/:year/"
+        tag: "/blog/tag/:name/"
+        category: "/blog/category/:name/"
 
 display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
 display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
@@ -279,27 +278,26 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
+    last_name: [Einstein]
+    first_name: [Albert, A.]
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+    style: apa
+    locale: en
 
-  style: apa
-  locale: en
+    source: /_bibliography/
+    bibliography: papers.bib
+    bibliography_template: bib
+    # Note: if you have latex math in your bibtex, the latex filter
+    # preprocessing may conflict with MathJAX if the latter is enabled.
+    # See https://github.com/alshedivat/al-folio/issues/357.
+    bibtex_filters: [latex, smallcaps, superscript]
 
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
+    replace_strings: true
+    join_strings: true
 
-  replace_strings: true
-  join_strings: true
-
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
+    details_dir: bibliography
+    details_layout: bibtex.html
+    details_link: Details
 
   query: "@*"
   group_by: year
@@ -326,11 +324,10 @@ enable_publication_thumbnails: true
 
 # These are the defaults
 external_links:
-  enabled: true
-  rel: external nofollow noopener
-  target: _blank
-  exclude:
-
+    enabled: true
+    rel: external nofollow noopener
+    target: _blank
+    exclude:
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
@@ -354,7 +351,6 @@ imagemagick:
     - ".gif"
   output_formats:
     webp: "-quality 85"
-
 
 # -----------------------------------------------------------------------------
 # Optional Features
@@ -380,18 +376,18 @@ enable_progressbar:         true   # enables a horizontal progress bar linked to
 bootstrap-table:
   version: "1.22.1"
 jquery:
-  version: "3.6.0"
-  integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    version: "3.6.0"
+    integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
 mathjax:
-  version: "3.2.0"
+    version: "3.2.0"
 masonry:
-  version: "4.2.2"
-  integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
+    version: "4.2.2"
+    integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
 mdb:
-  version: "4.20.0"
-  integrity:
-    css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
-    js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
+    version: "4.20.0"
+    integrity:
+        css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
+        js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
 medium_zoom:
   version: "1.0.8"
   integrity: "sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8="
