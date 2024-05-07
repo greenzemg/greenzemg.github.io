@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: left
-  image: teklitpic.jpeg
+  image: engd_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
     <p>From the tulip fields to the bustling city streets, I'm living my best life exploring all that the Netherlands has to offer!</p>
