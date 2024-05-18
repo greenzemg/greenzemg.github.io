@@ -9,4 +9,4 @@ _site
 Gemfile.lock
 vendor
 .devcontainer
-
+venv
