@@ -6,7 +6,7 @@ subtitle: <strong>Engineering Doctorate</strong> @<a href='https://www.tue.nl/st
 
 profile:
     align: left
-    image: engd_pic_rect.ico
+    image: xmaspic2.jpg
     image_circular: false # crops the image to make it circular
     more_info: >
         <p>+31686320534</p>
@@ -27,12 +27,12 @@ While my time at INSA (Information Network Security Agency) honed my technical s
 
 Though I have a strong technical foundation, I recognized the value of practical experience. That's why I'm currently an Engineering Doctorate (EngD) trainee at Eindhoven University. This program is a perfect blend of academic rigor and industry exposure, allowing me to develop the professional skills I need to thrive in the real world.
 
-Throughout my journey, these principles have been my compass:
+> Throughout my journey, these principles have been my compass:
 
--   **Keep it Simple:**  I strive for clear solutions and efficient approache.
--   **Automate Everything:** I like to automate everything I can, from home to office workflow.
--   **Plan and Organize**: I plan and organize all aspect of my life to ensure that I meet my goals.
--   **Discipline is key**: Maintaining consistent discipline in all endeavors.
+> -   **Keep it Simple:** I strive for clear solutions and efficient approache.
+> -   **Automate Everything:** I like to automate everything I can, from home to office workflow.
+> -   **Plan and Organize**: I plan and organize all aspect of my life to ensure that I meet my goals.
+> -   **Discipline is key**: Maintaining consistent discipline in all endeavors.
 
 <!-- When I'm not working, you can find me exploring the world of cybersecurity, reading the latest tech news, or enjoying a good book. I'm also a fitness enthusiast and a coffee lover, so you might find me at the gym or at a local coffee shop.  -->
 
