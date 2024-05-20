@@ -19,20 +19,24 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi there! I'm Teklit Haphtu, a cybersecurity professional and software engineer with a passion to understand the underhood and the complexities of the digital world.
+Hi there! 
 
-My interest with technology began during my bachelor's degree at Mekelle Institute of Technology (Ethiopia), where I was first introduced to the language of zeros and ones of electronic devices. Back then, fueled by a childhood dream of riches (through ethical hacking, of course!), I delved into the realm of cybersecurity in my first job as a security researcher and exploit developer.
+I'm Teklit Haphtu, a Cybersecurity Professional and Software Engineer with a passion for understanding the inner working and the complexities of the digital world.
 
-While my time at INSA (Information Network Security Agency) honed my technical skills, I yearned for a deeper understanding of the industry. That's why I pursued a Master's degree in Computer Science with a specialization in cybersecurity at the University of Twente. This program, with its cutting-edge courses, helped me sharpen my knowledge and prepare for the ever-evolving threatscape.
+My interest with technology began during my bachelor's degree at Mekelle Institute of Technology (MIT-Ethiopia), where I was first introduced the fundamental language of zeros and ones that power electronic devices. There, I studied computer, created programs, I tinkered electronics. 
 
-Though I have a strong technical foundation, I recognized the value of practical experience. That's why I'm currently an Engineering Doctorate (EngD) trainee at Eindhoven University. This program is a perfect blend of academic rigor and industry exposure, allowing me to develop the professional skills I need to thrive in the real world.
+<!-- Back then, fueled by a childhood dream of riches (through ethical hacking, of course!), I delved into the realm of cybersecurity in my first job as a security researcher and exploit developer. -->
 
-> Throughout my journey, these principles have been my compass:
+After completing my degree, I worked in INSA (Information Network Security Agency) as a security researcher and exploit developer, where I honed my skills in cybersecurity. Then, In 2021, I received scholarship and I pursued a Master's degree in Computer Science with a specialization in cybersecurity at the University of Twente. This program, with its cutting-edge courses, helped me sharpen my knowledge and prepare for the ever-evolving threatscape.
 
-> -   **Keep it Simple:** I strive for clear solutions and efficient approache.
+Though I have a strong technical foundation, I recognized the value of practical experience on professional setting. That's why I'm currently following Engineering Doctorate (EngD) program at Eindhoven University. This program is a perfect blend of academic rigor and industry exposure, allowing me to develop the professional skills I need to thrive in the real world.
+
+Throughout my journey, these principles have been my compass:
+
+> -   **Keep it Simple:** clear solutions and efficient approach.
 > -   **Automate Everything:** I like to automate everything I can, from home to office workflow.
-> -   **Plan and Organize**: I plan and organize all aspect of my life to ensure that I meet my goals.
-> -   **Discipline is key**: Maintaining consistent discipline in all endeavors.
+> -   **Plan and Organize**: I do my best to plan and organize all aspect of my life to ensure that I meet my goals.
+> -   **Discipline is key**: Discipline is my anchor to stay focused and persistent.
 
 <!-- When I'm not working, you can find me exploring the world of cybersecurity, reading the latest tech news, or enjoying a good book. I'm also a fitness enthusiast and a coffee lover, so you might find me at the gym or at a local coffee shop.  -->
 

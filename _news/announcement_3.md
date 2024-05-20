@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-A research topic (par of my M.Sc these) under supervision of <a href="https://www.linkedin.com/in/mohammed-elhajj-0b88b0156/"> Mohammed Elhajj </a> and <a href="https://www.linkedin.com/in/taru-itapelto/" >Taru Itäpelto</a> titled systematic literature review of Digital Twin role in enhancing security in context of Industry 4.0 has been accepted by esteemed Security and Privacy Journal. I am excited to announce it! :rocket: :smile: :tada: 
+A research topic (par of my M.Sc thesis) under supervision of <a href="https://www.linkedin.com/in/mohammed-elhajj-0b88b0156/"> Mohammed Elhajj </a> and <a href="https://www.linkedin.com/in/taru-itapelto/" >Taru Itäpelto</a> titled systematic literature review of Digital Twin role in enhancing security in context of Industry 4.0 has been accepted by esteemed Security and Privacy Journal. I am excited to announce it! :rocket: :smile: :tada: 
 
 ---
 #### What is the research about?
