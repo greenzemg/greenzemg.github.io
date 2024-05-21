@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://greenzemg.github.io/sitemap.xml
+Sitemap: https://teklithaphtu.com/sitemap.xml
