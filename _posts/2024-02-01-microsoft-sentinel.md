@@ -123,5 +123,5 @@ SigninLogs
 | where FailureCount > 3
 ```
 
-## Test
+**Test**
 To test this rule, attempt to log in to a service that requires MFA and intentionally fail the MFA prompt three times.

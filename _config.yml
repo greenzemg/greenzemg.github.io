@@ -270,21 +270,8 @@ jekyll-archives:
         tag: "/blog/tag/:name/"
         category: "/blog/category/:name/"
 
-display_tags: [
-        "formatting",
-        "images",
-        "links",
-        "math",
-        "code",
-        "images",
-        "formatting",
-        "images",
-        "links",
-        "math",
-        "code",
-        "images",
-    ] # these tags will be displayed on the front page of your blog
-display_categories: [""] # these categories will be displayed on the front page of your blog
+display_tags: ["#soc", "azure", "microsoft", "kql", "python"] # these tags will be displayed on the front page of your blog
+display_categories: ["security"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
