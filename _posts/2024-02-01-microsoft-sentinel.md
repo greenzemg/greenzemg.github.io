@@ -60,24 +60,25 @@ SigninLogs
 **Test**: To test this rule and to trigger the alert, use a VPN to switch to a known bad IP and then log in.
 
 ## Detecting Communication with a C&C Server
-Command and Control (C&C) servers, as it names speak, are launching pad for cyber criminals used to communicate with compromised systems, often to exfiltrate data or send malicious commands. This query checks for any incoming successful communication from a known blacklisted C&C IP. An external data source is used to create the blacklist of C&C server IPs.  Identifying such communications can help in detecting and mitigating ongoing attacks.
+
+Command and Control (C&C) servers, as it names speak, are launching pad for cyber criminals used to communicate with compromised systems, often to exfiltrate data or send malicious commands. This query checks for any incoming successful communication from a known blacklisted C&C IP. An external data source is used to create the blacklist of C&C server IPs. Identifying such communications can help in detecting and mitigating ongoing attacks.
 
 **Query**:
 
 ```javascript
-let BlockList = 
-    (externaldata(ip:string) 
-    [@"https://rules.emergingthreats.net/blockrules/compromised-ips.txt" 
-    ] 
-    with(format="csv") 
-    | where ip matches regex "(^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$)" 
-    | distinct ip 
+let BlockList =
+    (externaldata(ip:string)
+    [@"https://rules.emergingthreats.net/blockrules/compromised-ips.txt"
+    ]
+    with(format="csv")
+    | where ip matches regex "(^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$)"
+    | distinct ip
 );
-SigninLogs 
-| sort by TimeGenerated 
-| where IPAddress in (BlockList) or IPAddress == "85.145.247.7" 
+SigninLogs
+| sort by TimeGenerated
+| where IPAddress in (BlockList) or IPAddress == "85.145.247.7"
 // Add specific IP for testing
-| where ResultType == 0 
+| where ResultType == 0
 // Only successful logins
 | project TimeGenerated, OperationName, Identity, IPAddress, DeviceDetail
 
@@ -86,5 +87,16 @@ SigninLogs
 **Test**: To test this rule, add your IP to the list of known C&C server IPs and attempt a login.
 
 ## How to Deal With Account Enumeration Attacks
-An adversary can use account enumeration attacks to identify valid usernames and passwords. 
-This query targets a tactic commonly used by adversaries: account detection attacks leveraging Brute Force (T1087) from the MITRE ATT&CK framework. It identifies a surge in login attempts from a single IP targeting multiple user accounts, a potential sign of brute-forcing valid accounts.
+
+An adversary can use account enumeration attacks to identify valid usernames and password.
+This query targets a tactic commonly used by adversaries: account detection attacks leveraging Brute Force (T1087) from the MITRE ATT&CK framework;For more information follow this [link](https://attack.mitre.org/techniques/T1087/). It identifies a surge in login attempts from a single IP targeting multiple user accounts, a potential sign of brute-forcing valid accounts.
+
+**Query**:
+
+```javascript
+let BorderValue = 3;
+SigninLogs
+| distinct UserDisplayName, IPAddress
+| summarize AmountOfAccounts = count(), Adresses = make_list(UserDisplayName, 100) by IPAddress
+| where AmountOfAccounts >= BorderValue
+```
