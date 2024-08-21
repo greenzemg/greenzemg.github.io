@@ -1,12 +1,10 @@
 github_users:
     - greenzemg
-    # - alshedivat
 
 github_repos:
-    - alshedivat/al-folio
-    - twbs/bootstrap
-    - jekyll/jekyll
-    - jquery/jquery
-    - FortAwesome/Font-Awesome
-    - jpswalsh/academicons
-    - mathjax/MathJax
+    - greenzemg/MasterThesisDTIoT
+    - greenzemg/nationaltender_web
+    - greenzemg/SDM-assignment
+    - greenzemg/vscan
+    - greenzemg/greenzemg.github.io
+    - greenzemg/menelik

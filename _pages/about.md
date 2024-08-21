@@ -41,4 +41,7 @@ Throughout my journey, these principles have been my compass:
 
 Have I time? then you will find me enjoying activities that keep both my mind and body engaged. I have passion for tennis ( Though not doing it enough), swimming, and soccer. I also participate in Capture The Flag (CTF) competitions, which are cybersecurity challenges, and I enjoy playing chess to sharpen my strategic thinking.
 
+<!-- Write about my education background and achievements -->
+
+
 <!-- !["alternative text"](https://www.proguardsafety.my/cdn/shop/products/HG1-PHSL-SlideLock-3D_e4679c6d-0963-4aa3-bb3f-77dbdbe60b05_1024x1024@2x.png?v=1605146892 "style=width:40px;height:30px; class=custom-image-size") -->
