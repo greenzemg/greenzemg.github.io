@@ -100,3 +100,28 @@ SigninLogs
 | summarize AmountOfAccounts = count(), Adresses = make_list(UserDisplayName, 100) by IPAddress
 | where AmountOfAccounts >= BorderValue
 ```
+
+## Detecting MFA Fatigue Attacks
+
+MFA fatigue attacks exploit a user’s frustration with repeated MFA prompts, aiming to bypass security by overwhelming the user with requests. This method is dangerous because it requires valid credentials, making it a high-risk attack. If the user inadvertently approves one of the persistent MFA requests, the attacker gains access.
+
+To detect such attacks, we can use Microsoft Sentinel to monitor for repeated occurrences of error code 500121—indicating strong authentication failures. Specifically, if more than three such failures occur from the same account within 10 minutes, it could signal an MFA fatigue attack.
+
+This tactic aligns with MITRE ATT&CK's [T1621](https://attack.mitre.org/techniques/T1621/) under the Credential Access category, which covers methods like MFA Request Generation.
+
+**Query**:
+
+```javascript
+
+// KQL Query to detect MFA Fatigue Attacks
+SigninLogs
+// Filtering for strong authentication failures
+| where ResultType == "500121"
+// Aggregating failed attempts by account within 10-minute intervals
+| summarize FailureCount = count() by Identity, bin(TimeGenerated, 10m)
+// Flagging instances where more than three failures occurred
+| where FailureCount > 3
+```
+
+## Test
+To test this rule, attempt to log in to a service that requires MFA and intentionally fail the MFA prompt three times.
