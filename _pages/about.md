@@ -28,7 +28,7 @@ My interest with technology began during my bachelor's degree at Mekelle Univers
 
 After completing my degree, I worked in INSA (Information Network Security Agency) as a security Engineer. Then, in 2021, I received scholarship and I pursued a Master's degree in Computer Science with a specialization in cybersecurity at the University of Twente. This program, with its cutting-edge courses, helped me sharpen my knowledge and prepare for the ever-evolving threatscape.
 
-Although I have a strong technical foundation, I recognized the importance of clutivating soft skills that align with the expectations of the Dutch industry. That's why I'm currently following Engineering Doctorate (EngD) program at Eindhoven University. This program is a perfect blend of academic excellence and industry exposure through in-company projects. .
+Although I have a strong technical foundation, I recognized the importance of clutivating soft skills that align with the expectations of the Dutch industry. That's why I'm currently following Engineering Doctorate (EngD) program at Eindhoven University. This program is a perfect blend of academic excellence and industry exposure through in-company projects.
 
 <!-- > -   **Keep it Simple:** Clear solutions and efficient approach.
 > -   **Automate Everything:** I like to automate everything I can, from home to office workflow.
