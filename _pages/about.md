@@ -9,7 +9,7 @@ profile:
     image: xmaspic2.jpg
     image_circular: false # crops the image to make it circular
     more_info: >
-        <p>I live Somewhere in Netherlands </p>
+        <p>I live in Netherlands </p>
         <p> and my email is: initial(firstname) dot initial(middlename) dot lastname at gmail.com</p>
 
 news: true # includes a list of news items
@@ -20,15 +20,14 @@ social: false # includes social icons at the bottom of the page
 
 Hi there! 👋
 
-I'm Cybersecurity Professional and Software Engineer with a passion for understanding the inner working of the digital world.
+Software Engineer with a passion for understanding the inner working of the digital world.
 
 My interest with technology began during my bachelor's degree at Mekelle University (MIT- Ethiopia ), where I was first introduced to the fundamental language of zeros and ones that power electronic devices. There, I studied computers, created programs, I tinkered electronics.
 
 <!-- Back then, fueled by a childhood dream of riches (through ethical hacking, of course!), I delved into the realm of cybersecurity in my first job as a security researcher and exploit developer. -->
 
-After completing my degree, I worked in INSA (Information Network Security Agency) as a security Engineer. Then, in 2021, I received scholarship and I pursued a Master's degree in Computer Science with a specialization in cybersecurity at the University of Twente. This program, with its cutting-edge courses, helped me sharpen my knowledge and prepare for the ever-evolving threatscape.
-
-Although I have a strong technical foundation, I recognized the importance of clutivating soft skills that align with the expectations of the Dutch industry. That's why I'm currently following Engineering Doctorate (EngD) program at Eindhoven University. This program is a perfect blend of academic excellence and industry exposure through in-company projects.
+After completing my degree, I worked in INSA (Information Network Security Agency) as a security Engineer. Then, in 2021, I received scholarship and I pursued a Master's degree in Computer Science with a specialization in cybersecurity at the University of Twente.Most recently, I completed an Engineering Doctorate (EngD) in Software Technology at Eindhoven University of Technology.As part of my graduation project at ASML, I designed and developed an automation tool to migrate legacy test code into a modern testing framework.
+<!-- This program is a perfect blend of academic excellence and industry exposure through in-company projects. -->
 
 <!-- > -   **Keep it Simple:** Clear solutions and efficient approach.
 > -   **Automate Everything:** I like to automate everything I can, from home to office workflow.
@@ -37,7 +36,7 @@ Although I have a strong technical foundation, I recognized the importance of cl
 
 <!-- When I'm not working, you can find me exploring the world of cybersecurity, reading the latest tech news, or enjoying a good book. I'm also a fitness enthusiast and a coffee lover, so you might find me at the gym or at a local coffee shop.  -->
 
-When I have free time, I enjoy activities that keep both my mind and body active. I’m passionate about tennis, swimming, and soccer, even though I haven’t played tennis as much as I’d like. I also take part in Capture The Flag (CTF) competitions, which are cybersecurity challenges. I enjoy playing chess too, although I'm currently stuck at a 700 Elo rating.
+In my free time, I like to stay active and keep my mind engaged. I enjoy playing tennis, swimming, and soccer, although I haven’t played much tennis lately. I also like taking part in cybersecurity competitions called Capture The Flag (CTF). I play chess for fun too, but my rating is around 700 Elo for now
 
 <!-- Write about my education background and achievements -->
 

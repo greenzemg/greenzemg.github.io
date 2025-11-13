@@ -139,24 +139,21 @@ let transTheme = () => {
 
 
 let initTheme = (theme) => {
-  if (theme == null || theme == "null") {
-    const userPref = window.matchMedia;
-    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
-      theme = "dark";
-    }
-  }
-
+  // Always force dark mode
+  theme = "dark";
   setTheme(theme);
 };
 
 
-initTheme(localStorage.getItem("theme"));
+// Force dark mode on initialization
+initTheme("dark");
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    const mode_toggle = document.getElementById("light-toggle");
+document.addEventListener('DOMContentLoaded', function () {
+  const mode_toggle = document.getElementById("light-toggle");
 
-    mode_toggle.addEventListener("click", function() {
-        toggleTheme(localStorage.getItem("theme"));
-    });
+  if (mode_toggle) {
+    // Hide the toggle button
+    mode_toggle.style.display = "none";
+  }
 });
