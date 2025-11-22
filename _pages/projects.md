@@ -5,8 +5,8 @@ permalink: /projects/
 description: All my personal, course and work projects.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: true
+display_categories: [work, course, personal]
+horizontal: false
 ---
 
 <!-- pages/projects.md -->

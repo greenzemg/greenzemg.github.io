@@ -214,8 +214,6 @@ exclude:
     - Gemfile
     - Gemfile.lock
     - vendor
-    - venv
-    - _site/venv
 keep_files:
     - CNAME
     - .nojekyll

@@ -11,16 +11,17 @@ tags:
     [
         Python,
         C/C++,
-        Test Automation,
         Neo4j,
         Clang,
         Domain Specific Language,
         Lark,
         Jinja2,
+        Docker,
+        Linux,
     ]
 ---
 
-As part of my Engineering Doctorate (EngD) final project at ASML, I tackled a common challenge faced by many large tech companies: migrating thousands of legacy test cases to a modern testing framework. Here's how I built a semi-automatic tool to transform legacy Python tests into ASML's new MTEST framework. Semi-automatic means that the tool does most of the work automatically but still needs a human to check and make sure the results are correct.
+As part of my Engineering Doctorate (EngD) final project at ASML, I tackled a common challenge faced by many large tech companies: migrating thousands of legacy test cases to a modern testing framework. Here's how I built a semi-automatic tool to transform legacy Python tests into ASML's new MTEST framework. In this context, semi-automatic means the tool does most of the work automatically but still needs a human to check and make sure the results are correct.
 
 #### Problem
 
@@ -132,7 +133,7 @@ By pre-computing the entire codebase's dependency graph, we can instantly answer
 #### Results and Impact
 <!-- The semi-automatic migration tool we developed significantly improves efficiency by migrating test files in under five seconds compared to hours of manual effort. Beyond migration, the tool's scanner builds a detailed function-level dependency graph stored in Neo4j for other use cases such as detecting spaghetti code, identifying dead code, and performing impact and risk analysis. -->
 
-Based on the project's results, the following claims can be made. First, the project demonstrates that the migration process, which previously required several hours of manual effort and the creation of more than seven separate files, can now be completed in less than five seconds. The tool automates the gen-eration of all required files for MTEST-based test cases, thereby solving the inefficiency of manual migration. Second, the project shows that the dependency graph of the production code not only cap-tures function-level relationships between components but can also be used for other use cases, includ-ing risk analysis, detection of dead code, and code refactoring. Third, the tool is not limited to migrating legacy test cases; it can also be used to create new MTEST-based test cases from scratch, thereby ex-tending its utility beyond migration alone.
+Based on the project's results, the following claims can be made. First, the project demonstrates that the migration process, which previously required several hours of manual effort and the creation of more than seven separate files, can now be completed in less than five seconds. The tool automates the generation of all required files for MTEST-based test cases, thereby solving the inefficiency of manual migration. Second, the project shows that the dependency graph of the production code not only captures function-level relationships between components but can also be used for other use cases, including risk analysis, detection of dead code, and code refactoring. Third, the tool is not limited to migrating legacy test cases; it can also be used to create new MTEST-based test cases from scratch, thereby extending its utility beyond migration alone.
 
 
 ---
