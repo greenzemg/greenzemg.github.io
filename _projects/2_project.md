@@ -25,7 +25,7 @@ This project was executed in collaboration with the Digital Twin Lab (DT Lab) at
 
 In high-tech manufacturing, validating control software on physical machinery is costly, risky, and time-consuming. Errors can lead to hardware damage or business operation downtime. Cordis needed a virtual environment (DT) to safely test their PLC (Programmable Logic Controller) control software before deployment.
 
-Key challenges in this project were, strict adherence to real-time latency constraints (under 300ms), designing a modular and scalable architecture to accommodate future extensions, ensuring seamless integration and data integrity across heterogeneous systems such as PLCs, Unity, and external services.
+Key challenges in this project were, strict adherence to real-time latency constraints (under 300ms), designing a modular and scalable architecture to accommodate future extensions, a seamless integration and data integrity across heterogeneous systems such as PLCs, Unity, and external services.
 
 <!-- Image of Digital Twin Setup -->
 <div class="row">
@@ -87,7 +87,7 @@ Built in Unity (C#), this component provides real-time 3D visualization of the f
 
 This project was a collaborative effort involving a multidisciplinary team of eight engineers. All team members had one or more roles in the project. In addition to my technical contributions, I played the role of Scrum Master and led the agile execution of the project.
 
-As a developer, I took ownership and responsibility for implementing one of the core components called IOSwitch (see bellow diagram). It functions as a central router that directs data flow between the physical world and the digital model. It validates JSON-based messages and routes sensor data and actuator commands to the appropriate controllers.
+As a developer, I took ownership and responsibility for implementing one of the core components called IOSwitch (see Fig 3). It functions as a central router that directs data flow between the physical world and the digital model. It validates JSON-based messages and routes sensor data and actuator commands to the appropriate controllers.
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
@@ -99,7 +99,7 @@ As a developer, I took ownership and responsibility for implementing one of the 
 </div>
 
 ##### Code Snippet: IOSwitch Event Routing
-The following 
+The following C# code snippet shows how the IOSwitch component routes incoming IO data and actuator commands to the appropriate controllers based on the source and destination specified in the JSON messages. 
 ```csharp
 using Festo.DigitalTwin.ToolBox;
 using Newtonsoft.Json;
